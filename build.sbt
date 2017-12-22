@@ -1,4 +1,4 @@
-name := "prolog99problems"
+name := "scala99problems"
 
 version := "0.1"
 

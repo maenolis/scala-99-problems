@@ -1,5 +1,5 @@
 package gr.maenolis.solution
 
-trait Solver[I, O] {
+trait Solution[I, O] {
   def solve(input: I): O
 }
