@@ -14,7 +14,7 @@ class ProblemSolution1[T](override val input: List[T])
 
   override def description: String = "Return the last element of a list."
 
-  override def solve(input: List[T]): T = {
+  override def solveProblem(input: List[T]): T = {
     input.headOption.getOrElse(throw new RuntimeException("Empty list is not allowed."))
     input.last
   }

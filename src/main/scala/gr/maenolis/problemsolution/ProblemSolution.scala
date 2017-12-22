@@ -7,7 +7,7 @@ trait ProblemSolution[I, O] {
 
   self: Problem[I]
     with Solution[I, O] =>
-  def solve: O = solve(input)
+  def solve: O = solveProblem(input)
 
   def description: String
 

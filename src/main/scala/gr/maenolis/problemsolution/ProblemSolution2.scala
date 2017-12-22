@@ -14,7 +14,7 @@ class ProblemSolution2[T](override val input: List[T]) extends ProblemSolution[L
 
   override def description: String = "Return the last but one element of a list."
 
-  override def solve(input: List[T]): T = {
+  override def solveProblem(input: List[T]): T = {
     if (input.lengthCompare(2) < 0) {
       throw new RuntimeException("Empty list is not allowed.")
     }

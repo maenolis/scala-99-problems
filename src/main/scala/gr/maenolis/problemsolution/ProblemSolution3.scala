@@ -13,7 +13,7 @@ class ProblemSolution3[T](override val input: (Int, List[T])) extends ProblemSol
 
   override def description: String = "Return the k-th element of a list."
 
-  override def solve(input: (Int, List[T])): T = {
+  override def solveProblem(input: (Int, List[T])): T = {
     require(input._1 > 0, "Only positive non-zero numbers are allowed")
     require(input._2.lengthCompare(input._1) >= 0, "Insufficient list length")
 
