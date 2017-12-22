@@ -1,7 +1,8 @@
-package gr.maenolis.problemsolution
+package gr.mvarvarigos.problemsolution.impl
 
-import gr.maenolis.problem.Problem
-import gr.maenolis.solution.Solution
+import gr.mvarvarigos.problem.Problem
+import gr.mvarvarigos.problemsolution.ProblemSolution
+import gr.mvarvarigos.solution.Solution
 
 object ProblemSolution5 {
   def apply[T](input: List[T]): ProblemSolution[List[T], List[T]] = new ProblemSolution5(input)

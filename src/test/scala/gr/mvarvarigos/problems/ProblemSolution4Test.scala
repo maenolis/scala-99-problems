@@ -1,6 +1,6 @@
-package problems
+package gr.mvarvarigos.problems
 
-import gr.maenolis.problemsolution.ProblemSolution4
+import gr.mvarvarigos.problemsolution.impl.ProblemSolution4
 import org.scalatest.{FlatSpec, Matchers}
 
 class ProblemSolution4Test extends FlatSpec with Matchers {

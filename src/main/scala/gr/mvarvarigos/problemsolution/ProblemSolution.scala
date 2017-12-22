@@ -1,7 +1,7 @@
-package gr.maenolis.problemsolution
+package gr.mvarvarigos.problemsolution
 
-import gr.maenolis.problem.Problem
-import gr.maenolis.solution.Solution
+import gr.mvarvarigos.problem.Problem
+import gr.mvarvarigos.solution.Solution
 
 trait ProblemSolution[I, O] {
 

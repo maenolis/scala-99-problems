@@ -1,4 +1,4 @@
-package gr.maenolis.problem
+package gr.mvarvarigos.problem
 
 trait Problem[I] {
 
